@@ -10,7 +10,7 @@
     <form method="post" action="">
         <label for="numbers">Enter numbers (comma-separated):</label><br>
         <input type="text" id="numbers" name="numbers" required><br><br>
-        <input type="submit" name="remove duplicates" value="Sort">
+        <input type="submit" name="remove duplicates" value="remove duplicates">
     </form>
 
     <?php
