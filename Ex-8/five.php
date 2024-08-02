@@ -1,4 +1,13 @@
 <?php
-$color = array(4 => 'white', 6 => 'green', 11 => 'red');
-echo reset($color);
+$color = array('white', 'green', 'red');
+
+echo implode(', ', $color) . ",\n";
+
+foreach ($color as $c) {
+    echo $c . "\n";
+}
+
+foreach (array_reverse($color) as $c) {
+    echo $c . "\n";
+}
 ?>
